@@ -1,0 +1,96 @@
+{
+    "symbols.hidesExplorerArrows": false,
+    "workbench.iconTheme": "symbols",
+    "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.commandCenter": false,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "focus:command"
+    ],
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+        "/tmp/postman-http-request-post-response.instructions.md": true,
+        "/tmp/postman-http-request-pre-request.instructions.md": true,
+        "/tmp/postman-collections-post-response.instructions.md": true,
+        "/tmp/postman-collections-pre-request.instructions.md": true,
+        "/tmp/postman-folder-post-response.instructions.md": true,
+        "/tmp/postman-folder-pre-request.instructions.md": true
+    },
+    "editor.minimap.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "vim.leader": "<space>",
+    "vim.smartRelativeLine": false,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["g", "r"],
+            "commands": ["editor.action.referenceSearch.trigger"]
+        },
+        {
+            "before": ["K"],
+            "commands": ["editor.action.showDefinitionPreviewHover"]
+        },
+        {
+            "before": ["<leader>", "e"],
+            "commands": ["workbench.view.explorer"]
+        },
+        {
+            "before": ["<leader>", "b"],
+            "commands": ["workbench.action.toggleSidebarVisibility"]
+        },
+        {
+            "before": ["<leader>", "f"],
+            "commands": ["workbench.action.seachFiles"]
+        },
+        {
+            "before": ["<leader>", "d"],
+            "commands": ["workbench.view.debug"]
+        },
+        {
+            "before": ["<leader>", ";"],
+            "commands": ["editor.action.commentLine"]
+        },
+        {
+            "before": ["<leader>", "s"],
+            "commands": ["workbench.action.quickOpen"]
+        },
+        {
+            "before": ["<leader>", "c"],
+            "commands": ["workbench.action.closeActiveEditor"]
+        },
+        {
+            "before": ["<leader>", "t"],
+            "commands": ["workbench.action.terminal.toggleTerminal"]
+        },
+        {
+            "before": ["<leader>", "w"],
+            "commands": ["workbench.action.files.save"]
+        }, 
+        {
+            "before": ["<leader>", "h"], // Focus previous tab at the left
+            "commands": ["workbench.action.previousEditor"]
+        },
+        {
+            "before": ["<leader>", "l"], // Focus next tab at the right
+            "commands": ["workbench.action.nextEditor"]
+        }
+    ],
+    "workbench.colorTheme": "Min Dark",
+    "explorer.compactFolders": false,
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "database-client.autoSync": true,
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "bottom",
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.accessibilitySupport": "off",
+    "editor.stickyScroll.enabled": false,
+    "git.confirmSync": false,
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+}
